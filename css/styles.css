@@ -50,7 +50,6 @@ button {
 }
 
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -96,10 +95,6 @@ header {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
-}
-
-.nav-link.current {
   color: #404bbf;
 }
 
@@ -199,7 +194,6 @@ header {
 
 .portfolio-item {
   border: 1px solid #E7E9FC;
-  border-top: none;
 }
 
 .portfolio-item-title {
