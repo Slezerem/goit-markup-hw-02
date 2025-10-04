@@ -56,12 +56,12 @@ body {
 
 .hero {
   background-color: #2e2f42;
-  text-align: center;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -152,5 +152,5 @@ body {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--footer-color, #f4f4fd);
 }
