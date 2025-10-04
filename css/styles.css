@@ -1,3 +1,7 @@
+:root {
+  --footer-color: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -20,7 +24,7 @@ body {
 }
 
 .logo-span-footer {
-  color: #f4f4fd;
+  color: var(--footer-color);
 }
 
 .nav-link {
@@ -98,10 +102,6 @@ body {
   color: #434455;
 }
 
-.team {
-  background-color: #f4f4fd;
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -109,6 +109,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-item {
@@ -145,6 +149,23 @@ body {
   color: #434455;
 }
 
+.portfolio-item h3,
+.portfolio-item p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .footer {
   background-color: #2e2f42;
 }
@@ -152,5 +173,5 @@ body {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-color, #f4f4fd);
+  color: var(--footer-color);
 }
